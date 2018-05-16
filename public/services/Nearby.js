@@ -206,12 +206,4 @@ eval("/**\n * Safe chained function\n *\n * Will only create a new function if n
 
 /***/ }),
 /* 12 */
-/*!***************************************************************!*\
-  !*** ../node_modules/react-bootstrap/es/utils/StyleConfig.js ***!
-  \***************************************************************/
-/*! exports provided: Size, SIZE_MAP, DEVICE_SIZES, State, Style */
-/*! exports used: DEVICE_SIZES, SIZE_MAP, Size, State, Style */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"c\", function() { return Size; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"b\", function() { return SIZE_MAP; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"a\", function() { return DEVICE_SIZES; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"d\", function() { return State; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"e\", function() { return Style; });\nvar Size = {\n  LARGE: 'large',\n  SMALL: 'small',\n  XSMALL: 'xsmall'\n};\n\nvar SIZE_MAP = {\n  large: 'lg',\n  medium: 'md',\n  small: 'sm',\n  xsmall: 'xs',\n  lg: 'lg',\n  md: 'md',\n  sm: 'sm',\n  xs: 'xs'\n};\n\nvar DEVICE_SIZES = ['lg', 'md', 'sm', 'xs'];\n\nvar State = {\n  SUCCESS: 'success',\n  WARNING: 'warning',\n  DANGER: 'danger',\n  INFO: 'info'\n};\n\nvar Style = {\n  DEFAULT: 'default',\n  PRIMARY: 'primary',\n  LINK: 'link',\n  INVERSE: 'inverse'\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTIuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi4vbm9kZV9tb
+/*!*************************************
