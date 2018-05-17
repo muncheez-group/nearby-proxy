@@ -7,6 +7,7 @@ yarn-debug.log*
 yarn-error.log*
 app.js
 bundle.js
+dump.rdb
 app-server.js
 /.DS_Store
 # Runtime data
