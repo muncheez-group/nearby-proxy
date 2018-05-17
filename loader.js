@@ -28,7 +28,6 @@ const fetchBundles = (path, services, suffix = '', require = false) => {
               const dest = fs.createWriteStream(filename);
               res.body.pipe(dest);
               res.body.on('end', () => {
-                console.log('AAAAAAAAAAAAAAAAAAAAAAA');
                 require ? loadBundle(services, item, filename) : null;
               });
             });
