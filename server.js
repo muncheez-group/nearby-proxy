@@ -21,7 +21,6 @@ const Scripts = require('./templates/scripts');
 const renderComponents = (components, props) => {
   return Object.keys(components).map(item => {
     let component = React.createElement(components[item], props);
-
     return ReactDom.renderToString(component);
   });
 };
