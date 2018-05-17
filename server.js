@@ -49,5 +49,5 @@ app.get('/restaurants/:id', function(req, res) {
 });
 
 app.listen(port, () => {
-  console.log(`server running at: http://52.53.171.51:${port}`);
+  console.log(`server running: http://52.53.171.51:${port}`);
 });
