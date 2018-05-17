@@ -23,8 +23,6 @@ const renderComponents = (components, props) => {
     console.log('comp: ' , components);
     console.log('props: ' , props);
     let component = React.createElement(components[item], props);
-    console.log(typeof component);
-
     console.log('return :', ReactDom.renderToString(component));
     return ReactDom.renderToString(component);
   });
@@ -40,6 +38,8 @@ app.get('/restaurants/:id', function(req, res) {
         currentRestaurant: data[0],
         nearbyRestaurants: data[1]
       }
+      console.log('aasdfasdfasdfsa', obj.currentRestaurant);
+      console.log('axxxxxxxxxxxxxxxxxxxx', obj.nearbyRestaurants);
       console.log('dsaaafasdfasdf',services);
       let components = renderComponents(services, obj);
       res.end(Layout(
