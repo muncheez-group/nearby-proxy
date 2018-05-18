@@ -15,7 +15,7 @@ module.exports = (title, body, scripts) => `
   <body>
   ${body}
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="http://52.53.171.51:3004/restaurants/app.js"></script>
+    <script src="http://52.53.171.51:3004/restaurants/bundle.js"></script>
     ${scripts}
   </body>
 </html>
