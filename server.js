@@ -1,3 +1,4 @@
+
 const axios = require('axios');
 const express = require('express')
 const morgan = require('morgan');
@@ -29,7 +30,7 @@ app.use('/', express.static(path.join(__dirname, './public')));
 
 app.get('/restaurants/:id', function(req, res) {
   let id = req.params.id;
-  axios.get(`http://localhost:3004/api/restaurants/${id}/nearby`)
+  axios.get(`http://52.53.171.51:3004/api/restaurants/${id}/nearby`)
     .then(({data}) => {
       let obj = {
         currentRestaurant: data[0],
@@ -48,5 +49,5 @@ app.get('/restaurants/:id', function(req, res) {
 });
 
 app.listen(port, () => {
-  console.log(`server running at: http://localhost:${port}`);
+  console.log(`server running: http://52.53.171.51:${port}`);
 });
